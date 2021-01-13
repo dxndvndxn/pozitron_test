@@ -1,0 +1,45 @@
+.your-cart__total{
+    background-color: $paleBlu;
+    padding: 30px 35px;
+    height: fit-content;
+    .your-cart__total-title{
+        font-size: $medOver;
+        @include latoFont(700);
+        color: $likeBlc;
+    }
+    .your-cart__total-infowrap{
+        margin-top: 31px;
+        @include latoFont(400);
+        color: $likeBlc;    
+        padding-bottom: 29px;
+        @extend %grLine;
+    }
+    .your-cart__total-info{
+        @include flx(bet);
+        &:not(:first-child){
+            margin-top: 18px;
+        }
+    }
+    .your-cart__total-pricewrap{
+        @include flx(bet);
+        @include latoFont(400);
+        font-size: $med;
+        color: $likeBlc;
+        margin-top: 16px
+    }
+    .your-cart__total-price{
+        @include latoFont(700);
+        font-size: $medOver + 2px;
+        color: $likeBlc;
+    }
+    .your-cart__total-btns{
+        margin-top: 32px;
+        @include flx(col);
+        .btn_transp{
+            margin-top: 12px;
+        }
+    }
+    .your-cart__total-btn{
+        height: 52px;
+    }
+}

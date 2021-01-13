@@ -1,0 +1,33 @@
+@mixin latoFont($weight) {
+    font-family: 'Lato', sans-serif;
+    @if $weight == 400 {
+        font-weight: 400;
+    }
+    @else if $weight == 700 {
+        font-weight: 700;
+    }
+}
+@mixin flx($how) {
+    display: flex;
+
+    @if $how == cen {
+        justify-content: center;
+    }
+    @else if $how == bet {
+        justify-content: space-between;
+    }
+    @else if $how == col {
+        flex-direction: column;
+    }
+    @else if $how == alignC {
+        align-items: center;
+    }
+    @else if $how == alignE {
+        align-items: flex-end;
+    }
+}
+
+@mixin grid($unit...) {
+    display: grid;
+    grid-template-columns: $unit;
+}

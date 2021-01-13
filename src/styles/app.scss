@@ -1,0 +1,19 @@
+// Settings
+@import 'normalize-scss';
+@include normalize();
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import 'vars/vars.scss';
+@import 'mixins/mixins.scss';
+@import 'classes/classes.scss';
+@import 'classes/btns/btn-classes.scss';
+@import 'extends/extends.scss';
+
+// Components
+@import 'components/header-cart.scss';
+@import 'components/crumbs.scss';
+@import 'components/cart/card-product.scss';
+@import 'components/cart/total-price.scss';
+@import 'components/cart/watched-products.scss';
+
+// Views
+@import 'views/cart.scss';

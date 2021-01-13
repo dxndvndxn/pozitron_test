@@ -1,0 +1,89 @@
+.watched-prds{
+    margin-top: 96px;
+    margin-bottom: 116px
+}
+.watched-prds__head{
+    @include flx(bet);
+    &-title{
+        @include latoFont(700);
+        font-size: $medOver + 6px;
+        color: $likeBlc;
+        margin: 0;
+    }
+
+    .watched-prds__head-btns{
+        display: flex;
+        margin-bottom: 47px;
+    }
+}
+.watched-prds__head-btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    @include flx(alignC);
+    justify-content: center;
+    cursor: pointer;
+}
+.watched-prds__head-points{
+    margin: auto 20px;
+}
+.watched-prds__head-mainpoint{
+    @include latoFont(700);
+    color: $likeBlc;
+    font-size: $medOver;
+    margin-right: 5px;
+}
+.watched-prds__head-relatepoint{
+    @include latoFont(7400);
+    color: $gr;
+    font-size: $med;
+    margin-left: 5px;
+}
+
+.watched-prds__item{
+    background-color: $paleBlu;
+    padding: 25px;
+    box-sizing: border-box;
+    height: 570px;
+    border-radius: 5px;
+}
+.watched-prds__item-img{
+    @include flx(cen);
+}
+.watched-prds__item-title{
+    @include latoFont(700);
+    color: $likeBlc;
+    font-size: $medOver - 2px;
+    margin-top: 30px;
+}
+.watched-prds__item-desc{
+    @include latoFont(400);
+    font-size: $mini;
+    color: $likeBlc;
+    margin-top: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+.watched-prds__item-priceR{
+    @include latoFont(700);
+    color: $likeBlc;
+    font-size: $medOver - 2px;
+    margin-top: 59px;
+}
+.watched-prds__item-priceE{
+    @include latoFont(400);
+    color: $gr;
+    font-size: $reg;
+    margin-top: 6px;
+}
+.watched-prds__item-btn{
+    width: 100%;
+    height: 52px;
+    margin-top: 20px;
+}
+.slick-slide{
+    > div{
+        margin-right: 20px;
+    }
+}

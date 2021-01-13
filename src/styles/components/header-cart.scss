@@ -1,0 +1,25 @@
+.header{
+    @include flx(bet);
+    @include latoFont(400);
+    height: 95px;
+    align-items: center;
+    .head-cart{
+        @include flx(bet);
+        .head-cart__imgwrap{
+            @include flx(alignC);
+            margin-right: 12px;
+        }
+        .head-cart__wrap{
+            @include flx(col);
+            font-size: $mini;
+            color: $likeBlc;
+            .head-cart__amount{
+                font-size: $tiny;
+                color: $gr;
+            }
+            .head-cart__amount, .head-cart__title{
+                margin-bottom: 2px;
+            }
+        }
+    }
+}
