@@ -1,5 +1,5 @@
 # positron_test
-
+## корзина находится по адресу /cart или по клику на иконку корзины
 ## Project setup
 ```
 npm install
